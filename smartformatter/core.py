@@ -6,7 +6,6 @@ def format_name(name):
     return ' '.join([w.capitalize() for w in name.strip().split()])
 
 
-
 def format_currency(amount, symbol ='$'):
     return f"{symbol}{amount:,.2f}"
 
